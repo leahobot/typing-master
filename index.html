@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="shortcut icon"
+			href="./favicon_io/favicon-16x16.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>Typing-Master | Home</title>
+	</head>
+
+	<body>
+		<header>
+			<button class="setting-btn">
+				<i class="fa-solid fa-gear"></i>
+			</button>
+			<form class="settings">
+				<label for="select-difficulty">Level of Difficulty</label>
+				<select id="select-difficulty">
+					<option value="easy">Easy</option>
+					<option value="medium">Medium</option>
+					<option value="difficult">Hard</option>
+				</select>
+			</form>
+		</header>
+
+		<main class="typing-container">
+			<div class="heading">
+				<i class="fa-solid fa-keyboard fa-2x"></i>
+				<h1>Typing Master</h1>
+				<i class="fa-solid fa-keyboard fa-2x"></i>
+			</div>
+
+			<div class="text-container">
+				<p>Type the following:</p>
+				<h2 class="word"></h2>
+				<input type="text" class="text" placeholder="Type here..." />
+			</div>
+
+			<div class="details">
+				<p class="time-details">
+					Time left : <span class="game-time"></span> s
+				</p>
+				<p class="score-details">Score <span class="game-score">0</span></p>
+			</div>
+			<div class="end-game"></div>
+		</main>
+
+		<footer>
+			<small>Typing-Master © 2022</small>
+		</footer>
+
+		<script src="app.js"></script>
+	</body>
+</html>
