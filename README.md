@@ -1,6 +1,6 @@
 # The Typing Master
 
-Typing master is a typing game that involves typing. It test youe speed in typing and it has three level of difficulties:
+Typing master is a typing game that involves typing. It tests your speed in typing and has three level of difficulties:
 
 * Easy
 * Medium
@@ -14,7 +14,7 @@ Also, there is a time interval for each level of difficulty and score is recorde
 3. HTML5
 
 
-***Visit the website here*** -> [Typing-Master]()
+***Visit the website here*** -> [Typing-Master](https://leahobot.github.io/typing-master/)
 
 
 
